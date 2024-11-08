@@ -18,18 +18,18 @@ VL53L1X_ULD sensor;
 uint16_t scales[15] = {
   0,
   1,
-	2,
-	3,
-	4,
-	5,
+  2,
+  3,
+  4,
+  5,
   6,
   7,
   8,
   9,
-	10,
-	12,
-	18,
-	24,
+  10,
+  12,
+  18,
+  24,
   30
 };
 
@@ -162,5 +162,5 @@ void vTaskSensor(void *param) {
 }
 
 void loop() {
-	return;
+  return;
 }
